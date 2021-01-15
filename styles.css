@@ -4,14 +4,16 @@
   --bg: #5f4b8b;
   --fg: #ffffff;
   --secondaryFg: #b3b3b3;
-  --containerBg: #272727;
+  --containerBg: #2e3440;
   --searchBg: var(--containerBg);
   --scrollbarColor: #3f3f3f;
   --fontFamily: 'Roboto Mono', monospace;
 }
 
 body {
-  background-color: var(--bg);
+  background-image: url("ign-0011.png");
+  background-attachment: fixed;
+  background-size: cover;
   margin: 0px;
 }
 
@@ -22,6 +24,10 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+h2 {
+  font-size: medium;
 }
 
 #clock {

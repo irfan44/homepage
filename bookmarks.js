@@ -3,45 +3,34 @@ const bookmarks = [
   {
     title: "Daily",
     links: [
-      { name: "Inbox", url: "https://inbox.google.com" },
-      { name: "GitHub", url: "https://github.com" },
-      { name: "Drive", url: "https://drive.google.com" },
+      { name: "Whatsapp", url: "https://web.whatsapp.com" },
+      { name: "GitHub", url: "https://github.com/irfan44" },
+      { name: "My Drive", url: "https://drive.google.com/u/1" },
     ],
   },
   {
-    title: "Media",
+    title: "Collage",
     links: [
-      { name: "Youtube", url: "https://youtube.com" },
-      { name: "Netflix", url: "https://netflix.com" },
-      { name: "Crunchyroll", url: "https://crunchyroll.com" },
-      {
-        name: "Amazon Prime",
-        url: "https://www.amazon.com/Amazon-Video",
-      },
+      { name: "SPOT", url: "https://spot.upi.edu" },
+      { name: "Classroom", url: "https://classroom.google.com/u/0/h" },
+      { name: "SIAK", url: "https://student.upi.edu" },
+      { name: "Collage Drive", url: "https:drive.google.com/u/0"}
     ],
   },
   {
     title: "Reddit",
     links: [
-      { name: "/r/overwatch", url: "https://reddit.com/r/overwatch" },
-      {
-        name: "/r/pcmasterrace",
-        url: "https://reddit.com/r/pcmasterrace",
-      },
-      { name: "/r/me_irl", url: "https://reddit.com/r/me_irl" },
-      {
-        name: "/r/battlestations",
-        url: "https://reddit.com/r/battlestations",
-      },
       { name: "/r/unixporn", url: "https://reddit.com/r/unixporn" },
+      { name: "/r/pop_os", url: "https://reddit.com/r/pop_os" },
       { name: "/r/news", url: "https://reddit.com/r/news" },
     ],
   },
   {
-    title: "Social",
+    title: "Others",
     links: [
-      { name: "Twitter", url: "https://twitter.com" },
-      { name: "Facebook", url: "https://facebook.com" },
+      { name: "Coursera", url: "https://coursera.com" },
+      { name: "Docker Hub", url: "https://hub.docker.com"},
+      { name: "Docker Docs", url: "https://docs.docker.com"}
     ],
   },
 ];
